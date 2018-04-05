@@ -42,4 +42,4 @@ for word in $line; do
 fi
 done
 echo $cgp
-done < this.txt
+done < c6.txt
