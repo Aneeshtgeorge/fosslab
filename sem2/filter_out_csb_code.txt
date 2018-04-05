@@ -1,0 +1,5 @@
+two files 
+one with all reg no: of csb and other with all cs students and their grades
+CODE-$grep -Fwf file1 file2
+/*file1=reg of csb
+file2=full cs students*/
