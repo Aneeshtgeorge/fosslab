@@ -6,3 +6,5 @@ uploaded kernel compilation
 networking script uploaded
 
 commands for setting up lamp uploaded
+
+package management methods
