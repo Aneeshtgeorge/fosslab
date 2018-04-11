@@ -8,7 +8,7 @@ untar or decompress it using
 
 step 3:
 to configure the newly downloaded kernel use
-# cd linux-3.9.3 // to go to the untared file
+# cd linux-4.16 // to go to the untared file
 
 # make menuconfig
 a text based user interface will appear with default settings
