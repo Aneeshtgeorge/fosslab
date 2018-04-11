@@ -1,0 +1,32 @@
+LAMP = LAMP is an acronym that traditionally stands for “Linux, Apache, MySQL, and PHP,” 
+which is a common server configuration for a lot of web applications.
+COMMANDS
+
+$sudo apt-get update
+$sudo apt-get upgrade
+$sudo apt-get install apache2 //most popular web server software
+
+//you can use python instead of php [optional]
+$sudo apt-get install python-setuptools libapache2-mod-wsgi
+
+//for mod_wsgi to load
+$sudo service apache2 restart
+
+//To install MySQL
+$sudo apt-get install mysql-server
+$mysql -u root -p //to access the MySQL
+install python if it is not installed
+
+To install PHP
+$sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql 
+$sudo nano /etc/apache2/mods-enabled/dir.conf
+
+move the index.php file to first i.e after DirectoryIndex
+
+save it
+
+restart apache2
+$sudo systemctl restart apache2
+
+to check the status of apache2
+$sudo systemctl status apache2
