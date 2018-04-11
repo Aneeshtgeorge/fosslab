@@ -14,7 +14,7 @@ $make menuconfig
 a text based user interface will appear with default settings
 if it doesnt appear install the following package 
 $sudo apt-get install ${libncurses}
-$sudo apt-get install ${libncurses-dev}
+$sudo apt-get install ${libncurses-devel}
 
 step 4:
 make neccessory changes or save with default settings 
